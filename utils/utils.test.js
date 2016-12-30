@@ -10,6 +10,22 @@ it('should add two numbers', function(){
 
 });
 
+it('should asyncAdd the value of two numbers', function(done){
+  utils.asyncAdd(3,9, function(sum){
+    expect(sum).toBe(12).toBeA('number');
+    done();
+  })
+});
+
+
+it('should asyncSquare the number', function(done){
+  utils.asyncSquare(9, function(product){
+    expect(product).toBe(81).toBeA('number');
+    done();
+  });
+});
+
+
 it('should return the squared value of a number', function(){
   var res = utils.square(9);
 
