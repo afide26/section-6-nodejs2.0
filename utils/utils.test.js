@@ -8,3 +8,11 @@ it('should add two numbers', function(){
   }
 
 });
+
+it('should return the squared value of a number', function(){
+  var res = utils.square(9);
+
+  if( res !== 81){
+    throw new Error(`The value is not correct. The result should be 81 but got ${res}`);
+  }
+});
