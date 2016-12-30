@@ -3,5 +3,5 @@ module.exports.add = function(a, b){
 }
 
 module.exports.square = function(x){
-  return x * x + 1;
+  return x * x;
 }

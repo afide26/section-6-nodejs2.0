@@ -5,3 +5,4 @@
 1. Mocha
 2. Behaviour Driven Development
 3. The use of it() and writing behaviours
+4. Auto restarting test by writing nodemon in package.json
