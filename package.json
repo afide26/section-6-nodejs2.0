@@ -1,0 +1,19 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "keywords": [
+    "Testing",
+    "Node",
+    "applications"
+  ],
+  "author": "Alan Fidelino",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.0.0"
+  }
+}
